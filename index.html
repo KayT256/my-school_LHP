@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Le Hong Phong High School for the Gifted</h1>
+            <p id="sub-title">Student from Sep. 2021 - Sep. 2023</p>
+        </header>
+
+        <article id="class-schedule">
+            <header>11CL1 Class Schedule</header>
+
+            <select id="session">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+            </select>
+
+            <div>
+                <table id="morning">
+                    <thead>
+                        <tr>
+                            <th colspan="8" class="caption">Morning</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>7:30 - 8:15</th>
+                            <td>Math</td>
+                            <td>Technology</td>
+                            <td>Informatics</td>
+                            <td>Physics</td>
+                            <td>Physical Education</td>
+                            <td>Physics</td>
+                            <td rowspan="4">No school</td>
+                        </tr>
+
+                        <tr>
+                            <th>8:20 - 9:05</th>
+                            <td>Math</td>
+                            <td>Technology</td>
+                            <td>Physical Education</td>
+                            <td>National Defense Education</td>
+                            <td>Informatics</td>
+                            <td>Physics</td>
+                        </tr>
+
+                        <tr>
+                            <th>9:25 - 10:10</th>
+                            <td>English</td>
+                            <td>Physics</td>
+                            <td>Vocational Education</td>
+                            <td>English</td>
+                            <td>Chemistry</td>
+                            <td>Physics</td>
+                        </tr>
+
+                        <tr>
+                            <th>10:15 - 11:00</th>
+                            <td>Self Study</td>
+                            <td>Physics</td>
+                            <td>Vocational Education</td>
+                            <td>English</td>
+                            <td>Literature</td>
+                            <td>Physics</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table id="afternoon" style="display: none">
+                    <thead>
+                        <tr>
+                            <th colspan="8" class="caption">Afternoon</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>1:00 - 1:45</th>
+                            <td>Math</td>
+                            <td>Math</td>
+                            <td>Literature</td>
+                            <td>Literature</td>
+                            <td>Physics</td>
+                            <td rowspan="4" colspan="2">No school</td>
+                        </tr>
+
+                        <tr>
+                            <th>1:50 - 2:35</th>
+                            <td>Physics</td>
+                            <td>Math</td>
+                            <td>History</td>
+                            <td>Literature</td>
+                            <td>Biology</td>
+                        </tr>
+
+                        <tr>
+                            <th>2:55 - 3:40</th>
+                            <td>Biology</td>
+                            <td>English</td>
+                            <td>Physics</td>
+                            <td>Chemistry</td>
+                            <td>Physics</td>
+                        </tr>
+
+                        <tr>
+                            <th>3:45 - 4:30</th>
+                            <td>Geography</td>
+                            <td>Civic Education</td>
+                            <td>Physics</td>
+                            <td>Chemistry</td>
+                            <td>Physics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+        <article id="favorite-subjects">
+            <header>Favorite Subjects</header>
+            
+            <ul>
+                <li>
+                    <h2>Physics</h2>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Second Prize in Physics - City level</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h2>Informatics</h2>
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Certified in Data Science, Machine Learning and AI Development by CoTAI - Center of Talent in AI</li>
+                        <li>Certified in Web Development by IBM, freeCodeCamp</li>
+                        <li>Certified in Cloud Computing by IBM</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+
+        <article id="gallery">
+            <header>Gallery</header>
+
+            <div id="photos">
+                <img class="photo" src="img/class-img.jpeg">
+                <img class="photo" src="img/IMG_7562.JPG">
+                <img class="photo" src="img/IMG_0286.JPG">
+                <img class="photo" src="img/IMG_6396.JPG">
+                <img class="photo" src="img/IMG_7273.JPG">
+                <button id="back">&larr;</button>
+                <button id="next">&rarr;</button>
+            </div>
+        </article>
+
+        <article id="class-facebook">
+                <header>Visit My Class's Page</header>
+            <div>
+                <img class="icon" src="img/facebook.png">
+                <h2 class="social-media">Facebook: <a href="https://www.facebook.com/people/L%C3%BD-On-Crack/100076487285678/" target="_blank">Lý On Crack</a></h2>
+            </div>
+
+            <video id="video" controls loop muted>
+                <source src="videos/class-page.mov" type="video/quicktime">
+                <source src="videos/class-page.mp4" type="video/mp4">
+            </video>
+        </article>
+
+        <footer>
+            <p>Made by <span id="author">Trieu Khang Trat</span> (KayT)</p>
+            <p>My code is on <a href="https://github.com/KayT256" target="_blank">Github</a></p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
