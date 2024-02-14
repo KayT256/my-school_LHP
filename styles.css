@@ -186,6 +186,19 @@ video {
     height: 2rem;
 }
 
+.social-media a {
+    color: #9c9c9c;
+    text-decoration: none;
+}
+  
+.social-media a:visited {
+    color: #9c9c9c;
+}
+  
+.social-media a:hover, a:active {
+    color: #AA95D0;
+}
+
 footer {
     color: black;
     background-color: #ddd;
